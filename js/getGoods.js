@@ -1,5 +1,7 @@
 let getGoods = () => {
 
+  localStorage.clear()
+
   const getData = () => {
     fetch('/db/db.json')
     .then((response) => response.json())
@@ -26,7 +28,7 @@ let getGoods = () => {
   // localStorage.removeItem('goods')
 
   // console.log(localStorage)
-
+  
 
 }
 
