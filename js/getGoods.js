@@ -69,8 +69,6 @@ let getGoods = () => {
         //   console.dir(data)
         // })
         
-        
-        
     })
   }
   catch(e){
